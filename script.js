@@ -13,16 +13,16 @@ console.log(sum);
 let arr = ["hello", 1234, "", false, NaN, 123, true, " ", null, "29.01.1992"];
 
 let string = arr.filter(item => typeof item === 'string');
-console.log("Strings:", string);
+console.log("Strings");
 
 let number = arr.filter(item => typeof item === 'number');
-console.log("Numbers:", number);
+console.log("Numbers");
 
 let boolean = arr.filter(item => typeof item === 'boolean');
-console.log("Booleans:", boolean);
+console.log("Booleans");
 
 let object = arr.filter(item => item === null);  
-console.log("Objects (nulls):", object);
+console.log("Objects");
 
 
 
